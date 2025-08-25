@@ -1,0 +1,2 @@
+# Cybersecurity-Project-Ransomware-Supply-Chain-Attack-Simulation-and-Defense-Framework
+Build a hands-on lab and defense framework that simulates Ransomware-as-a-Service style attacks (controlled environment) and implements detection, prevention, and incident response mechanisms.  This will showcase your ability to think like both an attacker (Red Team) and defender (Blue Team) — highly attractive to employers.
