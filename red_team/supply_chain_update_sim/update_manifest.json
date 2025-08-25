@@ -1,0 +1,7 @@
+{
+  "package_name": "benign_app",
+  "version": "1.1.0",
+  "artifact": "benign_app_v1.1.0.bin",
+  "sha256": "eb2498c97134602aea83f2040e5c499b448d3cca1c6d2a567f4970f9243ec581",
+  "signed_by": "DEMO_CODE_SIGNING_CERT_SUBJECT"
+}
