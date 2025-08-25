@@ -1,0 +1,6 @@
+{
+  "attributes": {
+    "title": "Simulation Lab \u2014 Ransomware Detection",
+    "description": "Filter by module=ransomware_sim and action=rename_locked; visualize event rate."
+  }
+}
