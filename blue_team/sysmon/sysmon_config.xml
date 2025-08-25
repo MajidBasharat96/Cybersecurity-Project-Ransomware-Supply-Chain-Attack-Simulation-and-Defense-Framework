@@ -1,0 +1,21 @@
+<!-- Minimal Sysmon config (illustrative). Use official Sysmon binaries to deploy on Windows. -->
+<Sysmon schemaversion="4.50">
+  <EventFiltering>
+    <FileCreateTime onmatch="include">
+      <Rule groupRelation="or">
+        <Image condition="contains">\\sandbox\\lab_data\\</Image>
+      </Rule>
+    </FileCreateTime>
+    <FileCreate onmatch="include">
+      <Rule groupRelation="or">
+        <TargetFilename condition="end with">.locked.sim</TargetFilename>
+        <TargetFilename condition="end with">\\READ_ME_RESTORE_FILES.txt</TargetFilename>
+      </Rule>
+    </FileCreate>
+    <ProcessCreate onmatch="include">
+      <Rule groupRelation="or">
+        <Image condition="end with">ransomware_behavior_sim.py</Image>
+      </Rule>
+    </ProcessCreate>
+  </EventFiltering>
+</Sysmon>
