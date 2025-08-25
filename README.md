@@ -1,3 +1,5 @@
+# 🛡️ Ransomware-as-a-Service (RaaS) Supply Chain Defense
+
 ### 🛠 **Tech Stack**
 
 * **Languages**: Python, PowerShell, Bash
@@ -12,8 +14,6 @@
 * **Environment**: VirtualBox/VMware with Windows + Linux VMs (isolated lab)
 
 ---
-
-# 🛡️ Ransomware-as-a-Service (RaaS) Supply Chain Defense
 
 [![CI](https://github.com/your-username/RaaS-SupplyChain-Defense/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/RaaS-SupplyChain-Defense/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
