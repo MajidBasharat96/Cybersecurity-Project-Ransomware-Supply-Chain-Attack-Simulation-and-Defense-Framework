@@ -13,6 +13,56 @@
 
 ---
 
+# 🛡️ Ransomware-as-a-Service (RaaS) Supply Chain Defense
+
+[![CI](https://github.com/your-username/RaaS-SupplyChain-Defense/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/RaaS-SupplyChain-Defense/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.9+-yellow.svg)
+![Security](https://img.shields.io/badge/Security-CyberDefense-red)
+
+## 🚀 Overview
+This project simulates **defense mechanisms against Ransomware-as-a-Service (RaaS) attacks** within supply chains.  
+It integrates **machine learning anomaly detection**, **log monitoring**, and **automated alerts** to prevent ransomware spread.
+
+✅ Portfolio-ready cybersecurity project  
+✅ Demonstrates ML + Security + Automation  
+✅ Includes CI/CD pipeline, testing, and documentation  
+
+---
+
+## 🏗️ Features
+- 🔍 **Anomaly Detection** – Detects suspicious patterns using ML models
+- 📊 **Log Monitoring** – Analyzes system logs for ransomware behavior
+- 🚨 **Automated Alerts** – Sends email/Slack alerts on potential breaches
+- 🛠️ **Modular Architecture** – Easy to extend with more defenses
+- ✅ **Test Coverage & CI/CD** – Ensures reliability and security
+
+---
+
+## 📂 Project Structure
+
+RaaS-SupplyChain-Defense/
+│── .github/
+│   └── workflows/
+│       └── ci.yml              # GitHub Actions CI/CD pipeline
+│── docs/
+│   └── architecture.png        # System architecture diagram
+│── src/
+│   ├── anomaly_detection.py    # ML model for anomaly detection
+│   ├── log_monitor.py          # Log monitoring system
+│   ├── alert_system.py         # Automated alerts
+│   └── main.py                 # Entry point
+│── tests/
+│   ├── test_anomaly_detection.py
+│   ├── test_log_monitor.py
+│   └── test_alert_system.py
+│── requirements.txt
+│── README.md
+│── LICENSE
+│── CONTRIBUTING.md
+│── .gitignore
+
+
 ### 📌 **Roadmap**
 
 #### **Phase 1: Attack Simulation (Red Team)**
@@ -80,33 +130,6 @@
   * Detection & defense steps.
   * Lessons learned.
 * Include **visual dashboards** (Kibana/Splunk) for ransomware detection.
-
----
-
-### 📂 **GitHub Repository Structure**
-
-```
-RaaS-SupplyChain-Defense/
-│── red_team/                # Attack simulation
-│   ├── phishing_tool.py
-│   ├── ransomware_sim.py
-│   ├── supply_chain_backdoor.py
-│
-│── blue_team/               # Defense mechanisms
-│   ├── yara_rules/
-│   ├── suricata_rules/
-│   ├── detection_scripts.py
-│   ├── auto_response.py
-│
-│── monitoring/              # ELK / Splunk dashboards
-│   ├── sysmon_config.xml
-│   ├── kibana_dashboard.json
-│
-│── docs/
-│   ├── project_report.md
-│   ├── setup_guide.md
-│   ├── incident_response_plan.md
-```
 
 ---
 
